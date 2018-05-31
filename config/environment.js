@@ -28,7 +28,7 @@ module.exports = function(environment) {
     },
 
     APP: {
-      apiHost      : process.env.API_HOST || 'https://open-event-api.herokuapp.com',
+      apiHost      : process.env.API_HOST || 'https://eventsapi.goglides.com',
       apiNamespace : process.env.API_NAMESPACE || 'v1'
     },
 
@@ -111,9 +111,9 @@ module.exports = function(environment) {
       'ws://eventyay.dev:65520',
       'ws://localhost:49153',
       'https://maps.gstatic.com',
-      'https://*.eventyay.com',
-      'https://eventyay.com',
-      'https://open-event-api.herokuapp.com',
+      'https://*.goglides.com',
+      'https://goglides.com',
+      'https://eventsapi.goglides.com',
       'www.google-analytics.com',
       ENV.sentry.hostname
     ],
@@ -122,8 +122,8 @@ module.exports = function(environment) {
       '\'unsafe-inline\'',
       'https://*.googleapis.com',
       'https://maps.gstatic.com',
-      'https://eventyay.com',
-      'https://*.eventyay.com',
+      'https://goglides.com',
+      'https://*.goglides.com',
       'http://eventyay.dev:65520',
       'http://localhost:49153',
       'www.google-analytics.com',
